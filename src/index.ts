@@ -13,6 +13,7 @@ const app = new Hono();
 const allowedOrigins = new Set([
   "http://localhost:5173",
   "https://<your-domain>.<tld>",
+  "large-planner.sxplab.com",
 ]);
 
 // https://hono.dev/docs/middleware/builtin/cors
